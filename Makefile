@@ -1,18 +1,31 @@
-ARTIFACT = build/main.exe
+#Paths
+OUT_PATH = build
+TEMP_PATH = $(OUT_PATH)/temp
+SRC_PATH = src
+
+#artifact
+ARTIFACT = $(OUT_PATH)/main.exe
 
 INC += -I./include
-SRC += $(wildcard src/*.cpp)
-OBJ += $(patsubst src/%.cpp, build/temp/%.o, $(SRC))
+SRC += $(wildcard $(SRC_PATH)/*.cpp)
+OBJ += $(patsubst $(SRC_PATH)/%.cpp, $(TEMP_PATH)/%.o, $(SRC))
 LIB +=
 
 CC=g++
-CFLAGS=-c -Wall
+CXXFLAGS=-Wall
 LDFLAGS=
 
-all: $(ARTIFACT)
+all: $(TEMP_PATH) $(ARTIFACT)
 
-build/temp/%.o:src/%.cpp
-	$(CC) $(CFLAGS) $(INC) $< -o $@
+clean:
+	rm -fr $(TEMP_PATH)/*
+	rm -f $(ARTIFACT)
+
+$(TEMP_PATH)/%.o:$(SRC_PATH)/%.cpp
+	$(CC) -c $(CXXFLAGS) $(INC) $< -o $@
 
 $(ARTIFACT): $(OBJ) 
 	$(CC) $(LDFLAGS) $(LIB) $(OBJ) -o $@
+
+$(TEMP_PATH):
+	mkdir -p $(TEMP_PATH)
