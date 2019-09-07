@@ -1,3 +1,6 @@
+#Config
+CONFIG ?= release
+
 #Paths
 OUT_PATH = build
 TEMP_PATH = $(OUT_PATH)/temp
@@ -14,6 +17,14 @@ LIB +=
 CC=g++
 CXXFLAGS=-Wall
 LDFLAGS=
+
+ifeq ($(CONFIG), release)
+	CXXFLAGS += -O3
+else ifeq ($(CONFIG), debug)
+	CXXFLAGS += -g
+else ifeq ($(CONFIG), opt_debug)
+	CXXFLAGS += -g -O3
+endif
 
 all: $(TEMP_PATH) $(ARTIFACT)
 
