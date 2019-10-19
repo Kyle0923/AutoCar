@@ -1,0 +1,6 @@
+# pack-refs with: peeled fully-peeled sorted 
+3200dd73f6982add585ae01ac8b176e4fd1808a7 refs/remotes/origin/kinetic-devel
+374b1a536c602a88a4850b3aa49fca74bed77a36 refs/remotes/origin/master
+3e37790ec3cca775ce2ad569729c1bd03fd21cdd refs/tags/0.0.1
+07ccf8273ffb1a098e0b8cc9790bf254533f0146 refs/tags/0.0.2
+43221f267a416a1e954207d4ba7d767bdbd20128 refs/tags/0.0.3

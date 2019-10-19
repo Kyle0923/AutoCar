@@ -1,0 +1,26 @@
+# pack-refs with: peeled fully-peeled sorted 
+c94f37a6a0fb77fe6c727e45a4aea708b1e9cca9 refs/remotes/origin/dashing-devel
+7d36aea1de2ab85b76719a0dacf888512256a24a refs/remotes/origin/hydro-devel
+ff9475e25fa2aa2e4f83fd7d567462430fde068c refs/remotes/origin/indigo-devel
+2cad64254ab2bc8edd5ef0f78e753256df8b17e2 refs/remotes/origin/kinetic-devel
+c93c1abf65921a54f92967750b57cb16c104365b refs/remotes/origin/master
+a69daf1f4bd48f7aacd5f3e59bf0d7d2d9f3c55b refs/remotes/origin/melodic-devel
+059bcc9489423a937ccc36e9e8c6fe97f5b6aedc refs/tags/1.10.0
+a5467ed2371abaab7fa646a51a9db72bc8b4771f refs/tags/1.11.0
+2cad64254ab2bc8edd5ef0f78e753256df8b17e2 refs/tags/1.11.1
+8aa20e338e450e59d0e23fca6241d0c25c49d687 refs/tags/1.12.0
+74f081e4290ce5e45f9578c2cc570d3e9b261233 refs/tags/1.13.0
+bb447b6bb93ebba565bac39b5f36a1e233a2c59d refs/tags/1.13.1
+faf96e963a848d9041a29e124790396489c31a0f refs/tags/1.14.0
+a69daf1f4bd48f7aacd5f3e59bf0d7d2d9f3c55b refs/tags/1.15.0
+803f2ea12c9e19be0bf1551fd5cf31d81a791fdc refs/tags/1.8.0
+6ede9c95932e198d3ab21da7f77c876de62c31d0 refs/tags/1.8.1
+278d84880ba20dc1e48b848d515e9de2fff8d280 refs/tags/1.8.2
+b207cc7cc4d8c48ba36a475a6370665853c9970d refs/tags/1.8.3
+33b1d71a9308a584bb203e107e23047690c6a3fe refs/tags/1.9.0
+ff9475e25fa2aa2e4f83fd7d567462430fde068c refs/tags/1.9.1
+bf552984ff2b52817c2b673aef6b55df9af90c60 refs/tags/1.9.2
+c94f37a6a0fb77fe6c727e45a4aea708b1e9cca9 refs/tags/2.0.0
+88992a40bf533d436412a17014735cc797e491fb refs/tags/ros_control-0.0.1
+4446be388041fdb9af7ddff58a4e6ef18e71c275 refs/tags/ros_control-0.0.2
+adb6e8213d3685a3f83caccb3bef71b6e35c5324 refs/tags/ros_control-0.0.3
